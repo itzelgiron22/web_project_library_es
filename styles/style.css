@@ -246,7 +246,7 @@ ul {
 
 .person_name_feynman {
   position: absolute;
-  top: 0;
+  top: -30px;
   left: 319px;
 }
 
@@ -270,7 +270,7 @@ ul {
 
 .person_name_tarter {
   position: absolute;
-  top: 109px;
+  top: 79px;
   left: 159px;
 }
 
