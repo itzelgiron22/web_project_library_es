@@ -314,7 +314,7 @@ ul {
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-basis: auto;
+  flex-basis: 100%;
 }
 
 .step {
