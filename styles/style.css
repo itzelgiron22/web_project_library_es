@@ -314,10 +314,10 @@ ul {
   padding: 0;
   margin: 100px 0 0;
   display: flex;
+  flex-basis: auto;
 }
 
 .step {
-  flex-basis: auto;
   width: 220px;
   gap: 40px;
 }
@@ -386,12 +386,14 @@ ul {
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
