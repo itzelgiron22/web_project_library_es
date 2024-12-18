@@ -313,13 +313,14 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  flex-wrap: wrap;
   display: flex;
-  flex-basis: 100%;
+  gap: 40px;
+  justify-content: center;
 }
 
 .step {
-  width: 220px;
-  gap: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -380,7 +381,7 @@ ul {
 }
 
 .footer__list-item {
-  margin: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
