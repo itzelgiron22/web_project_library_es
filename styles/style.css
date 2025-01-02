@@ -354,6 +354,11 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+}
+
+.footer__column {
+  align-self: stretch;
 }
 
 .footer__column_content_hours {
@@ -367,6 +372,7 @@ ul {
 .footer__logo {
   width: 58px;
   height: 80px;
+  margin-top: 18.72px;
 }
 
 .footer__column-heading {
